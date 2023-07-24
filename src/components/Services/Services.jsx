@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import "./Services.css";
 import Card from "../Card/Card";
-import HeartEmoji from "../../img/heartemoji.png";
-import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
+import codechef from "../../img/codechef.png";
+import gdsc from "../../img/gdsc.png";
+import rotaract from "../../img/rotaract.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import Resume from './resume.pdf';
@@ -24,8 +24,8 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span style={{ color: darkMode ? "white" : "" }}>My Technical</span>
+        <span>Experience</span>
         <spane>
           Lorem ispum is simpley dummy text of printing of printing Lorem
           <br />
@@ -45,9 +45,9 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            emoji={codechef}
+            heading={"Codechef"}
+            detail={"HTML, CSS, Java Script"}
           />
         </motion.div>
         {/* second card */}
@@ -57,9 +57,9 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            emoji={gdsc}
+            heading={"GDSC RCCIIT"}
+            detail={"Competitive programming Lead at Google Developer Stdents Culb @RCCIIT"}
           />
         </motion.div>
         {/* 3rd */}
@@ -69,10 +69,10 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Humble}
-            heading={"UI/UX"}
+            emoji={rotaract}
+            heading={"Web Master"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Web Master at Rotaract Club of RCCIIT."
             }
             color="rgba(252, 166, 31, 0.45)"
           />

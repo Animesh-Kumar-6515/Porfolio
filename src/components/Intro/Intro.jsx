@@ -28,10 +28,9 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span>Animesh Kumar</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            Full Stack Developer and a Competetive Coder!
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -47,8 +46,22 @@ const Intro = () => {
             <img src={Github} alt="" />
           </a>
 
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          
+          <a
+            href="linkedin.com/in/animesh-kumar-2252b2200/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={LinkedIn} alt="" />
+          </a>
+          
+          <a
+            href="https://www.instagram.com/animesh_kumar_65/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Instagram} alt="" />
+          </a>
         </div>
       </div>
       {/* right image side */}
@@ -82,7 +95,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="Competitive Coder" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
